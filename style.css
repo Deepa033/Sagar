@@ -1,0 +1,130 @@
+body {
+	background-position: cover;
+	color: black;
+	text-align: center;
+	font-size: 24px;
+	font-family:serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav a {
+	color: white;
+}
+.nav  {
+background-color: #2C3E50;	
+width: 100;
+}
+
+.nav a:visited {
+	color: #CD6155;
+}
+.wrapper {
+	width: 1000;
+	clear: both;
+}
+.aid {
+	background: #fff;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 0px 1px 2px #eee;
+    border-radius: 1px;
+	text-align: justify; 
+	float: left; 
+	width: cover;
+	position:relative
+}
+.head {
+	width: 500;
+	float: left;
+	font-family: serif;
+	font-size: 1rem;
+}
+.logo {
+	width: 50;
+	float: right;
+}
+.info {
+	display: inline-block;
+	background: #fff;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 1px 0px 1px 2px #eee;
+    border-radius: 1px;
+	text-align: justify; 
+	width:950px; 
+	float: center; 
+	position: relative; 
+}
+.login {
+	background: #fff;
+    margin: 5px;
+    padding: 5px;
+    padding-left:30px;
+    padding-right: 30px;
+    box-shadow: 1px 0px 1px 2px #eee;
+    border-radius: 1px;
+	text-align: center; 
+	width:300px; 
+	padding:0px;
+	float:right;
+	position:relative;
+}
+
+.nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 2rem;
+}
+
+.nav ul li{
+	padding: 16px;
+	text-align: center;
+	font-size: 1.2rem;
+	border-bottom: 1px solid black;
+	transition: background-color 0.5s;
+
+}
+.nav ul li:hover {
+	background-color: #4286f4;
+}
+
+.image-area {
+	background-image:url('Image/background.jpg');
+	background-position: center center;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	}
+ 
+.image-text {
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	margin:0px auto;
+	padding: 0px auto;	
+	max-width: cover;
+}
+.footer {
+	font-size: 1.5rem;
+	font-family: serif;
+	color: white;
+	background-color: #2C3E50;
+}
+@media screen and (min-width: 700px) {
+	.nav ul {
+		text-align: right;
+	}
+    .nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		border-left: 1px solid black;
+		text-align: left;
+	}
+
+}
